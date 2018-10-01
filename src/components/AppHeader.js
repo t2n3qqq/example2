@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-class AppHeader extends Component {
 
+class AppHeader extends Component {
   render() {
     const body = this.props.game.map((e)=>{
       console.log(e);
